@@ -1,0 +1,7 @@
+cara compile:
+
+as --64 program.o program.s
+ld -m elf_x86_64 program program.o
+
+as program.o program.s
+ld -o program program.o
